@@ -32,5 +32,9 @@ class AdminController extends Controller
             return view('admin.index');
        }
 
+    public function tagline()
+       {
+            return view('admin.tagline');
+       }
 }
  

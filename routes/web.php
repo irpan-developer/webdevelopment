@@ -23,9 +23,12 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/admin', 'AdminController@index')->name('admin');
+Route::get('/admin/tagline', 'AdminController@tagline')->name('admin');
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('products','ProductController');
+Route::resource('isi','isiController');
