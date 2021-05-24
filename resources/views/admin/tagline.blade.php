@@ -379,27 +379,9 @@
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>Header</th>
-                                            <th>Gambar</th>
-                                            <th>Paragraf</th>
-                                            <th>Tanggal Dibuat</th>
-                                            <th colspan=2>Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tfoot>
-                                        <tr>
-                                        <th>Header</th>
-                                            <th>Gambar</th>
-                                            <th>Paragraf</th>
-                                            <th>Tanggal Dibuat</th>
-                                            <th colspan=2>Action</th>
-                                        </tr>
-                                    </tfoot>
+                                    
                                     <tbody>
                                    
-
                                     @yield('content')
 
 
